@@ -6,7 +6,7 @@
 
 body {
     min-height: 100vh;
-    background-image: url('imagens/backg.jpg');
+    background-image: url('backg.jpg');
     background-size: cover;
     background-position: center;
     color: #F6F6F6;
@@ -22,7 +22,7 @@ header{
 
 header {
     background-color: rgba(51, 51, 51, 0.7);
-    background-image: url('imagens/challenges.1689860202.svg');
+    background-image: url('challenges.1689860202.svg');
     text-align: center;
     background-repeat: no-repeat;
     background-size: 10%;
