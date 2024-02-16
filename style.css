@@ -1,10 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-body{
-    height: 100vh;
     box-sizing: border-box;
-    background-color: #000000;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('imagens/backg.jpg'); /* Substitua 'sua-imagem.jpg' pelo nome da sua imagem */
+    background-size: cover; /* Para garantir que a imagem cubra todo o fundo */
+    background-position: center; /* Para centralizar a imagem no fundo */
     color: #F6F6F6;
+    font-family: Arial, sans-serif;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.7); /* Adiciona um fundo semi-transparente */
+    color: #FFFFFF;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 400px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
