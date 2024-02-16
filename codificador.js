@@ -4,6 +4,11 @@
 //Original: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 //Trocado:  J X L G F S N R W K D H Q M P U O I A C V B Y E Z T
 
+function inserirTextoNoFooter(texto) {
+    var footer = document.getElementById("footer");
+    footer.innerHTML = "<p>" + texto + "</p>";
+}
+
 function codificador(){
 
     var valorcod = document.getElementById('texto').value;
@@ -74,6 +79,7 @@ function codificador(){
             codificada += arrayDeLetras[i];
         }
     }
+    inserirTextoNoFooter(codificada);
     console.log(codificada);
 }
 
@@ -147,6 +153,6 @@ function decodificador(){
             decodificada += arrayDeLetras[i];
         }
     }
+    inserirTextoNoFooter(decodificada);
     console.log(decodificada);
-
 }
