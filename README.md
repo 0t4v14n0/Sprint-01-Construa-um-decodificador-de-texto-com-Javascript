@@ -1,7 +1,7 @@
 <h1>DECODIFICADOR DE TEXTO</h1>
 
 <h2>Sobre</h2>
-<p>Desafio proposto pela alura para criacao de decodificador de texto</p>
+<p>Desafio proposto pela Oracle com Alura para criacao de decodificador de texto</p>
 
 <h2>Tecnologias</h2>
 <div>
